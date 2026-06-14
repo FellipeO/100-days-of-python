@@ -81,7 +81,6 @@ while on:
     elif order == "report":
         print(f"{machine_report()}money: ${money}")
     elif order == "espresso" or order == "latte" or order == "cappuccino":
-        #enough_resources = resource_check(order)
         if resource_check(order):
             if money_handler(order):
                 money += MENU[order]["cost"]

@@ -5,8 +5,6 @@ import dotenv
 from selenium import webdriver
 from selenium.common import ElementClickInterceptedException
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as ec
-from selenium.webdriver.support.wait import WebDriverWait
 
 dotenv.load_dotenv(".env")
 TINDOG_URL = "https://app.100daysofpython.dev/services/tindog/u/fKCWYFgGYUki7Hkh4G7DXmrAMqrIp_Yi"
